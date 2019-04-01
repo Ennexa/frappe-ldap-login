@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ennexa_custom *.css
+recursive-include ennexa_custom *.csv
+recursive-include ennexa_custom *.html
+recursive-include ennexa_custom *.ico
+recursive-include ennexa_custom *.js
+recursive-include ennexa_custom *.json
+recursive-include ennexa_custom *.md
+recursive-include ennexa_custom *.png
+recursive-include ennexa_custom *.py
+recursive-include ennexa_custom *.svg
+recursive-include ennexa_custom *.txt
+recursive-exclude ennexa_custom *.pyc
